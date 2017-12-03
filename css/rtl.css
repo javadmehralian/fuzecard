@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel.eot');
+  src: url('../fonts/Sahel.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sahel.woff') format('woff'),
+       url('../fonts/Sahel.ttf') format('truetype');
+  font-weight: normal;
+}
+      
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel-Bold.eot');
+  src: url('../fonts/Sahel-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sahel-Bold.woff') format('woff'),
+       url('../fonts/Sahel-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Sahel;
+  src: url('../fonts/Sahel-Black.eot');
+  src: url('../fonts/Sahel-Black.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Sahel-Black.woff') format('woff'),
+       url('../fonts/Sahel-MedBlackium.ttf') format('truetype');
+  font-weight: 900;
+}
+
+
+@font-face{
+	font-family:IRANSans;
+	font-style:normal;
+	font-weight:400;
+	src:url(../fonts/IRANSansWeb_Light.eot);
+	src:url(../fonts/IRANSansWeb_Light.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/IRANSansWeb_Light.woff2) format('woff2'),
+		url(../fonts/IRANSansWeb_Light.woff) format('woff'),
+		url(../fonts/IRANSansWeb_Light.ttf) format('truetype')
+}
+@font-face{
+	font-family:IRANSans;
+	font-style:normal;
+	font-weight:700;
+	src:url(../fonts/IRANSansWeb_Medium.eot);
+	src:url(../fonts/IRANSansWeb_Medium.eot?#iefix) format('embedded-opentype'),
+		url(../fonts/IRANSansWeb_Medium.woff2) format('woff2'),
+		url(../fonts/IRANSansWeb_Medium.woff) format('woff'),
+		url(../fonts/IRANSansWeb_Medium.ttf) format('truetype')
+}
+
+
+h1, h2, h3, h4, h5, h6, body,.navbar-custom a {
+	font-family: 'IRANSans', sans-serif !important;
+	direction: rtl !important;
+}
+
+h1, h2, h3, h4, h5, h6, p,.btn {
+    letter-spacing: 0 !important;
+}
+
+@media (min-width: 991px){
+.navbar-left {
+    float: left !important;
+}
+}
+
+@media (min-width: 768px){
+.navbar-header {
+    float: right;
+}
+}
+
+
+
+@media (min-width: 768px){
+.navbar-nav>li {
+    float: right !important;
+}
+}
+.navbar-nav.sm-collapsible a.has-submenu {
+    padding-right: 13px;
+}
+
+
+@media (min-width: 992px){
+.col-md-5,.col-md-7,.col-md-3,.col-md-4,.col-md-6 {
+    float: right;
+}
+
+
+
+.col-md-offset-4 {
+    float: left;
+}
+
+.col-md-offset-2 {
+    margin-right: 16.66666667%;
+	margin-left: 0;
+
+}
+/*
+.col-md-8 {
+	margin-left: 16.66666667%;
+}
+*/
+.col-md-offset-1 {
+    margin-left: 0;
+}
+
+}
+
+
+@media (min-width: 1200px){
+.col-lg-5,.col-lg-6,.col-md-10,.col-lg-3 {
+    float: right;
+}
+.col-lg-offset-1 {
+    margin-right: 8.33333333%;
+	margin-left: 0;
+}
+
+.col-lg-offset-3 {
+    margin-right: 25%;
+}
+}
+
